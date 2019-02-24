@@ -1,7 +1,7 @@
 var playlist = new Object ({Prince: "Purple Rain"})
 
-function updatePlaylist (playlist, artist, song) {
-  playlist[playlist] = song;
+function updatePlaylist (playlist, artistName, songTitle) {
+  playlist[artistName] = song;
   return playlist;
 }
 
